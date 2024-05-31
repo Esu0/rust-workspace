@@ -1,0 +1,6 @@
+[package]
+name = "borrow-stack-ex"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]

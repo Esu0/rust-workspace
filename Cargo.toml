@@ -1,5 +1,5 @@
 [workspace]
-members = ["number-puzzle"]
+members = [ "borrow-stack-ex","number-puzzle"]
 resolver = "2"
 
 [workspace.package]
