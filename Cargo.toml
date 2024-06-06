@@ -1,5 +1,5 @@
 [workspace]
-members = [ "borrow-stack-ex","number-puzzle"]
+members = [ "borrow-stack-ex", "name-shuffle","number-puzzle"]
 resolver = "2"
 
 [workspace.package]
@@ -9,3 +9,5 @@ edition = "2021"
 [workspace.dependencies]
 tinyvec = "1.6.0"
 num-traits = "0.2.19"
+rand = "0.8.5"
+proconio = "0.4.5"
