@@ -1,0 +1,8 @@
+[package]
+name = "super-mod-pow"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+proconio.workspace = true
+rand.workspace = true

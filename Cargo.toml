@@ -1,5 +1,5 @@
 [workspace]
-members = [ "borrow-stack-ex", "name-shuffle","number-puzzle"]
+members = [ "borrow-stack-ex", "name-shuffle","number-puzzle", "super-mod-pow"]
 resolver = "2"
 
 [workspace.package]
