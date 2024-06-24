@@ -56,4 +56,5 @@ fn check1() {
 
 fn main() {
     check1();
+    println!("{}", super_mod_pow::solve(100000, 234556873, 849928198883232, 1234567890));
 }

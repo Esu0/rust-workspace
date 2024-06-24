@@ -1,0 +1,7 @@
+[package]
+name = "im-test"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+im = "15.1.0"

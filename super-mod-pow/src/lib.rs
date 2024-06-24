@@ -66,7 +66,7 @@ pub fn solve(a: u64, b: u64, c: u64, n: u64) -> u64 {
 
     for (&p, &k) in &p {
         let count = n_prime_factors[&p];
-        
+
         // compare k * b^c and count
         {
             let mut tmp = k as u64;

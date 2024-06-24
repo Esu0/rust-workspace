@@ -1,0 +1,6 @@
+[package]
+name = "fake-static"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
