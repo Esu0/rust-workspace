@@ -1,0 +1,14 @@
+[package]
+name = "opt-div"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+
+[dev-dependencies]
+criterion.workspace = true
+rand.workspace = true
+
+[[bench]]
+name = "benchmark"
+harness = false
