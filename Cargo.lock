@@ -180,6 +180,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7"
 
 [[package]]
+name = "dijkstra"
+version = "0.1.0"
+dependencies = [
+ "proconio 0.5.0",
+]
+
+[[package]]
 name = "either"
 version = "1.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -294,7 +301,7 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 name = "name-shuffle"
 version = "0.1.0"
 dependencies = [
- "proconio",
+ "proconio 0.4.5",
  "rand",
 ]
 
@@ -383,6 +390,12 @@ name = "proconio"
 version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0eb404616795079e2390e7115acf0ada24e9332e8476de2aada7bacb9992dc9e"
+
+[[package]]
+name = "proconio"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c10091de86d0dc939b37a115d74597cbe83af470032a1729d50c98ccee043cb0"
 
 [[package]]
 name = "quote"
@@ -541,7 +554,7 @@ dependencies = [
 name = "super-mod-pow"
 version = "0.1.0"
 dependencies = [
- "proconio",
+ "proconio 0.4.5",
  "rand",
 ]
 
